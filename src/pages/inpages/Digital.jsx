@@ -18,6 +18,7 @@ import Image15 from "../../assets/digitalart/15.jpg";
 import Image16 from "../../assets/digitalart/16.jpg";
 import Image17 from "../../assets/digitalart/17.jpg";
 import Image18 from "../../assets/digitalart/18.jpg";
+import '../../styles/Digital.css'
 
 const images = [
   Image12,
@@ -55,14 +56,14 @@ const Digital = () => {
               key={index}
               className="col-lg-3 col-md-4 col-sm-6 col-12 d-flex justify-content-center mt-4"
             >
-              {/* <div className="card" style={{ width: "18rem" }}> */}
+              <div className="card" style={{ width: "18rem" }}>
                 <img
                   src={image}
-                  className="card-img-top img border-3"
+                  className="card-img-top img border border-1 border-black"
                   alt={`Digital Art ${index + 1}`}
                 />
               </div>
-            // </div>
+             </div>
           ))}
         </div>
       </div>

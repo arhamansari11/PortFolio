@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../../components/Navbar";
+import '../../styles/Digital.css'
 import Image1 from "../../assets/drawing/1.jpg";
 import Image2 from "../../assets/drawing/2.jpg";
 import Image3 from "../../assets/drawing/3.jpg";
@@ -78,14 +79,14 @@ const Drawing = () => {
               key={index}
               className="col-lg-3 col-md-4 col-sm-6 col-12 d-flex justify-content-center mt-4"
             >
-              {/* <div className="card" style={{ width: "18rem" }}> */}
+              <div className="card" style={{ width: "18rem" }}>
                 <img
                   src={image}
-                  className="card-img-top img border-3"
+                  className="card-img-top img border border-1 border-black"
                   alt={`Digital Art ${index + 1}`}
                 />
               </div>
-            // </div>
+            </div>
           ))}
         </div>
       </div>

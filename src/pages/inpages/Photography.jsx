@@ -20,7 +20,7 @@ import Image17 from "../../assets/photography/1 (17).jpg";
 import Image18 from "../../assets/photography/1 (18).jpg";
 import Image19 from "../../assets/photography/1 (19).jpg";
 import Image20 from "../../assets/photography/1 (20).jpg";
-
+import '../../styles/Digital.css'
 const images = [
   Image1,
   Image2,
@@ -67,13 +67,13 @@ const Photograph = () => {
               key={index}
               className="col-lg-3 col-md-4 col-sm-6 col-12 d-flex justify-content-center mt-4"
             >
-              {/* <div className="card" style={{ width: "18rem" }}> */}
+              <div className="card" style={{ width: "18rem" }}>
                 <img
                   src={image}
-                  className="card-img-top img border-3"
+                  className="card-img-top img border border-1 border-black"
                   alt={`Digital Art ${index + 1}`}
                 />
-              {/* </div> */}
+              </div>
             </div>
           ))}
         </div>
