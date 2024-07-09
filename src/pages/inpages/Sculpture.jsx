@@ -31,21 +31,27 @@ import '../../styles/Digital.css'
 
 const images = [
   Image20,
-  Image24,
-  Image25,
   Image26,
-  Image3,
+  Image25,
+  Image24,
+
   Image4,
+  Image8,
+  Image12,
+  Image3,
   Image5,
+
   Image1,
   Image2,
   Image6,
   Image7,
-  Image8,
+  
+
   Image9,
   Image10,
   Image11,
-  Image12,
+  
+
   Image13,
 //   Image14,
   Image15,

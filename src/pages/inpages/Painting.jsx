@@ -15,24 +15,24 @@ import Image12 from "../../assets/painting/p12.jpg";
 import Image13 from "../../assets/painting/p13.jpg";
 import Image14 from "../../assets/painting/p14.jpg";
 import Image15 from "../../assets/painting/p15.jpg";
-import '../../styles/Digital.css'
+import "../../styles/Digital.css";
 
 const images = [
-  Image15,
-  Image12,
   Image9,
   Image11,
+  Image12,
+  Image15,
   Image5,
   Image6,
   Image7,
-  Image1,
+  Image14,
   Image2,
+  Image13,
+  Image1,
+  Image8,
   Image3,
   Image4,
-  Image8,
   Image10,
-  Image13,
-  Image14,
 ];
 
 const Painting = () => {
@@ -65,7 +65,7 @@ const Painting = () => {
                   alt={`Digital Art ${index + 1}`}
                 />
               </div>
-             </div>
+            </div>
           ))}
         </div>
       </div>

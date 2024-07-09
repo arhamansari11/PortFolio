@@ -13,7 +13,6 @@ import Image10 from "../../assets/photography/1 (10).jpg";
 import Image11 from "../../assets/photography/1 (11).jpg";
 import Image12 from "../../assets/photography/1 (12).jpg";
 import Image13 from "../../assets/photography/1 (13).jpg";
-import Image14 from "../../assets/photography/1 (14).jpg";
 import Image15 from "../../assets/photography/1 (15).jpg";
 import Image16 from "../../assets/photography/1 (16).jpg";
 import Image17 from "../../assets/photography/1 (17).jpg";
@@ -22,25 +21,23 @@ import Image19 from "../../assets/photography/1 (19).jpg";
 import Image20 from "../../assets/photography/1 (20).jpg";
 import '../../styles/Digital.css'
 const images = [
+  Image15,
+  Image11,
+  Image12,
+  Image13,
   Image1,
   Image2,
   Image3,
   Image4,
-  Image5,
-  Image6,
   Image7,
-  Image8,
-  Image9,
   Image10,
-  Image11,
-  Image12,
-  Image13,
-  Image14,
-  Image15,
-  Image16,
-  Image17,
+  Image6,
+  Image9,
   Image18,
+  Image17,
   Image19,
+  Image8,
+  Image5,
   Image20,
 ];
 

@@ -20,21 +20,21 @@ import Image18 from "../../assets/miniature/1716364176936 - Copy.jpg";
 import '../../styles/Digital.css'
 
 const images = [
-  Image6,
-  Image7,
-  Image18,
-  Image8,
-  Image9,
-  Image11,
-  Image12,
-  Image15,
-  Image16,
-  Image17,
-  Image1,
-  Image2,
-  Image3,
-  Image5,
-  Image4,
+  { src: Image8, description: "Description for Image 8" },
+  { src: Image6, description: "Description for Image 6" },
+  { src: Image12, description: "Description for Image 12" },
+  { src: Image18, description: "Description for Image 18" },
+  { src: Image7, description: "Description for Image 7" },
+  { src: Image16, description: "Description for Image 16" },
+  { src: Image11, description: "Description for Image 11" },
+  { src: Image9, description: "Description for Image 9" },
+  { src: Image3, description: "Description for Image 3" },
+  { src: Image5, description: "Description for Image 5" },
+  { src: Image4, description: "Description for Image 4" },
+  { src: Image2, description: "Description for Image 2" },
+  { src: Image17, description: "Description for Image 17" },
+  { src: Image15, description: "Description for Image 15" },
+  { src: Image1, description: "Description for Image 1" },
 ];
 
 const Miniature = () => {
@@ -54,10 +54,13 @@ const Miniature = () => {
             >
               <div className="card" style={{ width: "18rem" }}>
                 <img
-                  src={image}
+                  src={image.src}
                   className="card-img-top img border border-1 border-black"
-                  alt={`Digital Art ${index + 1}`}
+                  alt={`Miniature Art ${index + 1}`}
                 />
+                <div className="card-body">
+                  <p className="card-text">{image.description}</p>
+                </div>
               </div>
             </div>
           ))}
