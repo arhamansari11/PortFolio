@@ -1,0 +1,147 @@
+.autoTyping {
+  color: #34a1cd;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  font-size: 3rem;
+}
+
+.para {
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  font-size: 2rem;
+  color: #768597;
+}
+
+.line-class {
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  font-size: 1.2rem;
+  color: #052243;
+}
+
+.heading {
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  font-size: 2rem;
+  color: #071627;
+}
+
+.button {
+  width: 200px;
+  height: 60px;
+  border: none;
+  background-color: #130F49;
+  color: white;
+  border-radius: 10px;
+}
+
+.button-class {
+  width: 200px;
+  height: 60px;
+  border: none;
+  background-color: #34A1CD;
+  color: white;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+
+
+@media only screen and (min-width:300px) and (max-width:500px){ 
+  .button-class {
+    width: 130px;
+    height: 50px;
+    border: none;
+    background-color: #34A1CD;
+    color: white;
+    border-radius: 10px;
+  }
+  .button {
+    width: 130px;
+    height: 50px;
+    border: none;
+    background-color: #130F49;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .autoTyping {
+    color: #34a1cd;
+    font-weight: 500;
+    font-family: var(--font-poppins);
+    font-size: 2rem;
+  }
+  
+  .para {
+    font-weight: 500;
+    font-family: var(--font-poppins);
+    font-size: 1.5rem;
+    color: #768597;
+  }
+  
+  .line-class {
+    font-weight: 500;
+    font-family: var(--font-poppins);
+    font-size: 1rem;
+    color: #052243;
+  }
+  
+  .heading {
+    font-weight: 500;
+    font-family: var(--font-poppins);
+    font-size: 1.5rem;
+    color: #071627;
+  }
+
+}.img-class {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-class > img {
+  width: 100%;
+  height: auto;
+  max-width: 450px;
+  max-height: 450px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 986px) { 
+  .img-class > img {
+    max-width: 350px;
+    max-height: 350px;
+  }
+  .button-class {
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: #34A1CD;
+    color: white;
+    border-radius: 10px;
+  }
+  .button {
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: #130F49;
+    color: white;
+    border-radius: 10px;
+  }
+  
+}
+
+@media only screen and (min-width: 501px) and (max-width: 768px) { 
+  .img-class > img {
+    max-width: 350px;
+    max-height: 350px;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) { 
+  .img-class > img {
+    max-width: 280px;
+    max-height: 280px;
+  }
+}

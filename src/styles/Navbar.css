@@ -1,0 +1,13 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.butto {
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: #130F49;
+    color: white;
+    border-radius: 10px;
+  }

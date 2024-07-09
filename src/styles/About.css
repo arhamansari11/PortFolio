@@ -1,0 +1,114 @@
+/* About.css */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.pt-3 {
+  padding-top: 1rem;
+}
+
+.line-class {
+  font-family: var(--font-poppins);
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.about {
+  margin-top: 2rem;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about h2 {
+  font-weight: bolder;
+  font-family: var(--font-poppins);
+  color: #34A1CD;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  font-family: var(--font-poppins);
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.education {
+  margin-top: 2rem;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.education h2 {
+  font-weight: bolder;
+  font-family: var(--font-poppins);
+  color: #34A1CD;
+  margin-bottom: 1rem;
+}
+
+.education ul {
+  list-style: none;
+  padding: 0;
+}
+
+.education li {
+  margin-bottom: 1.5rem;
+}
+
+.education span {
+  font-weight: bolder;
+  display: block;
+  margin-bottom: 0.5rem;
+  font-family: var(--font-poppins);
+}
+
+.education h2 {
+  font-size: 1.5rem;
+  margin: 0;
+  font-family: var(--font-poppins);
+}
+
+.education p {
+  font-family: var(--font-poppins);
+  color: #555;
+  margin: 0;
+}
+
+.footer {
+  margin-top: 2.5rem;
+  background-color: #f8f9fa;
+  padding: 2rem 0;
+  text-align: center;
+  border-top: 1px solid #e9ecef;
+}
+
+.footer h2 {
+  font-weight: bolder;
+  font-family: var(--font-poppins);
+  color: #34A1CD;
+  margin-bottom: 1rem;
+}
+
+.footer .social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer .social-links a {
+  text-decoration: none;
+  color: #34A1CD;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.footer .social-links a:hover {
+  color: #1a73e8;
+  transform: scale(1.1);
+}
