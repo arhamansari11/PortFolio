@@ -5,7 +5,7 @@ import "../styles/Home.css";
 import { Link } from "react-router-dom";
 import { FaLinkedin, FaBehance, FaFacebook, FaInstagram } from "react-icons/fa";
 import Hero from "../assets/images/Bg.png";
-import Aqib from "../assets/images/aqib.jpg"
+import Aqib from "../assets/images/aqib.jpg";
 
 const HomePage = () => {
   const [text] = useTypewriter({
@@ -20,10 +20,10 @@ const HomePage = () => {
       <Navbar />
       <div className="container">
         <div className="row">
-          <div className="col-lg-6 col-md-5 col-sm-10 col-12 order-lg-last order-md-last img-class d-flex justify-content-center align-items-center">
+          <div className="col-lg-6 col-md-5 col-sm-10 col-12 order-lg-last order-md-last img-class d-flex justify-content-center align-items-center animated-element image-animation">
             <img src={Hero} alt="" />
           </div>
-          <div className="col-lg-6 col-md-7 col-sm-10 col-12">
+          <div className="col-lg-6 col-md-7 col-sm-10 col-12 animated-element text-animation">
             <div className="height-class">
               <div className="container mt-5">
                 <p className="para">Hi There !</p>
@@ -51,25 +51,24 @@ const HomePage = () => {
       </div>
       <div className="container">
         <div className="row">
-          <div className="col-lg-6 col-md-5 col-sm-10 col-12 img-class d-flex justify-content-center align-items-center">
+          <div className="col-lg-6 col-md-5 col-sm-10 col-12 img-class d-flex justify-content-center align-items-center animated-element image-animation">
             <img src={Aqib} alt="" />
           </div>
-          <div className="col-lg-6 col-md-7 col-sm-10 col-12">
+          <div className="col-lg-6 col-md-7 col-sm-10 col-12 animated-element text-animation">
             <div className="height-class">
               <div className="container mt-5">
                 <p className="pt-3 line-class">
-                I am Aqib Javed. I am skilled in various artistic mediums, including sketching, painting, printmaking, sculpture, and photography. 
+                  I am Aqib Javed. I am skilled in various artistic mediums, including sketching, painting, printmaking, sculpture, and photography.
                 </p>
                 <hr />
                 <p className="pt-3 line-class">
-                I am proficient in creating portraits using diverse techniques and have experience as an Art Instructor, developing and implementing engaging art curricula for middle and high school students.
+                  I am proficient in creating portraits using diverse techniques and have experience as an Art Instructor, developing and implementing engaging art curricula for middle and high school students.
                 </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-
       <div className="container-fluid">
         <div className="row">
           <div className="col-12">

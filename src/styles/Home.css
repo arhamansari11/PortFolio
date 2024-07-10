@@ -145,3 +145,44 @@
     max-height: 280px;
   }
 }
+
+
+/* Home.css */
+
+@keyframes slideInFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animated-element {
+  opacity: 0;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.image-animation {
+  animation-name: slideInFromRight;
+  animation-delay: 0.5s;
+}
+
+.text-animation {
+  animation-name: slideInFromLeft;
+  animation-delay: 1s;
+}

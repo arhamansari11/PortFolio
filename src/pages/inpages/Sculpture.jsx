@@ -35,34 +35,36 @@ const images = [
   Image25,
   Image24,
 
-  Image4,
-  Image8,
-  Image12,
-  Image3,
-  Image5,
 
-  Image1,
-  Image2,
-  Image6,
-  Image7,
-  
-
-  Image9,
-  Image10,
-  Image11,
-  
-
-  Image13,
-//   Image14,
-  Image15,
+  Image21,
+  Image16,
+  Image23,
   Image17,
-//   Image18,
+
+
+  Image3,
+  Image8,
+  Image4,
+  Image12,
+
+  Image19,
+  Image5,
+  Image7,
+  Image15,
+
+  Image11,
+  Image2,
+  Image1,
+  Image6,
+  
+  
+  Image10,
+  Image13,
   Image22,
   Image27,
-  Image16,
-  Image21,
-  Image23,
-  Image19,
+
+  Image9,
+
 ];
 
 const Sculpture = () => {

@@ -71,7 +71,7 @@ const Navbar = () => {
                 to="/projects"
                 style={styles.link}
               >
-                Projects
+                Gallery
               </Link>
             </li>
             <li className="nav-item">

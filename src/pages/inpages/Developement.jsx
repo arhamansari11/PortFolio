@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../../components/Navbar";
-import '../../styles/Digital.css'
+import "../../styles/Digital.css";
 import Image1 from "../../assets/development/1 (1).jpg";
 import Image2 from "../../assets/development/1 (2).jpg";
 // import Image3 from "../../assets/development/";
@@ -15,7 +15,7 @@ import Image11 from "../../assets/development/1 (11).jpg";
 import Image12 from "../../assets/development/1 (12).jpg";
 import Image13 from "../../assets/development/1 (13).jpg";
 import Image14 from "../../assets/development/1 (14).jpg";
-import Image15 from "../../assets/development/1 (15).jpg";
+// import Image15 from "../../assets/development/1 (15).jpg";
 import Image16 from "../../assets/development/1 (16).jpg";
 import Image17 from "../../assets/development/1 (17).jpg";
 import Image18 from "../../assets/development/1 (18).jpg";
@@ -28,11 +28,54 @@ import Image24 from "../../assets/development/1 (24).jpg";
 import Image25 from "../../assets/development/1 (25).jpg";
 import Image26 from "../../assets/development/1 (26).png";
 import Image27 from "../../assets/development/1 (27).png";
+import Image28 from "../../assets/development/IMG_468y.jpg";
+import Image29 from "../../assets/development/IMG_4501.JPG";
+// import Image28 from "../../""
 
 const images = [
-  Image1, Image2, Image4, Image5, Image6, Image7, Image8, Image9, Image10,
-  Image11, Image12, Image13, Image14, Image15, Image16, Image17, Image18, Image19, Image20,
-  Image21, Image22, Image23, Image24, Image25, Image26, Image27
+  Image22,
+  Image23,
+  Image7, 
+  Image18,
+
+  Image4,
+  Image28,
+  Image5,
+  Image16,
+  
+  
+  
+  Image14,
+  Image17,
+  Image19,
+  Image20,
+  
+  
+  Image29,
+  Image21,
+  Image6,
+  Image24,
+  
+  Image12,
+  Image2,
+  Image10,
+  Image11,
+  
+
+  Image1,
+  Image25,
+  Image8,
+  Image9,
+  
+  
+
+  
+  
+  
+  
+  Image26,
+  Image13,
+  Image27,
 ];
 
 const Developement = () => {
@@ -65,7 +108,7 @@ const Developement = () => {
                   alt={`Digital Art ${index + 1}`}
                 />
               </div>
-             </div>
+            </div>
           ))}
         </div>
       </div>
