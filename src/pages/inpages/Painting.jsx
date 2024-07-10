@@ -17,22 +17,22 @@ import Image14 from "../../assets/painting/p14.jpg";
 import Image15 from "../../assets/painting/p15.jpg";
 import "../../styles/Digital.css";
 
-const images = [
-  Image9,
-  Image11,
-  Image12,
-  Image15,
-  Image5,
-  Image6,
-  Image7,
-  Image14,
-  Image2,
-  Image13,
-  Image1,
-  Image8,
-  Image3,
-  Image4,
-  Image10,
+const paintings = [
+  { src: Image9, description: "Figurative Painting", size: "6×8" },
+  { src: Image11, description: "Architect View Painting", size: "4×6" },
+  { src: Image12, description: "Window Painting", size: "4×6" },
+  { src: Image15, description: "Mix Elements Painting", size: "6×12" },
+  { src: Image5, description: "Still live Painting", size: "4×6" },
+  { src: Image6, description: "Drapry", size: "3×6" },
+  { src: Image7, description: "Figurative painting", size: "3×6" },
+  { src: Image14, description: "House fly coffee and oil paints", size: "4×6" },
+  { src: Image2, description: "Landscape Painting", size: "4×6" },
+  { src: Image13, description: "Landscape painting", size: "4×8" },
+  { src: Image1, description: "Mono Crome Still Life Painting", size: "3×4" },
+  { src: Image8, description: "Landscape Painting", size: "4×6" },
+  { src: Image3, description: "Replicate Painting", size: "3×3" },
+  { src: Image4, description: "Hand Painting", size: "4×4" },
+  { src: Image10, description: "Girl with a Pearl Earring ", size: "4×6" },
 ];
 
 const Painting = () => {
@@ -53,17 +53,21 @@ const Painting = () => {
         </div>
 
         <div className="row d-flex justify-content-evenly">
-          {images.map((image, index) => (
+          {paintings.map((painting, index) => (
             <div
               key={index}
               className="col-lg-3 col-md-4 col-sm-6 col-12 d-flex justify-content-center mt-4"
             >
               <div className="card" style={{ width: "18rem" }}>
                 <img
-                  src={image}
+                  src={painting.src}
                   className="card-img-top img border border-1 border-black"
                   alt={`Digital Art ${index + 1}`}
                 />
+                <div className="card-body">
+                  <b className="card-text text-center">{painting.description}</b>
+                  <p className="card-text text-center">{painting.size}</p>
+                </div>
               </div>
             </div>
           ))}

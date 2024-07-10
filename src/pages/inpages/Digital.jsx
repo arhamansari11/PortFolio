@@ -18,21 +18,21 @@ import Image17 from "../../assets/digitalart/17.jpg";
 import '../../styles/Digital.css'
 
 const images = [
-  { src: Image10, description: "Description for Image 10" },
-  { src: Image8, description: "Description for Image 8" },
-  { src: Image11, description: "Description for Image 11" },
-  { src: Image14, description: "Description for Image 14" },
-  { src: Image15, description: "Description for Image 15" },
-  { src: Image6, description: "Description for Image 6" },
-  { src: Image13, description: "Description for Image 13" },
-  { src: Image5, description: "Description for Image 5" },
-  { src: Image17, description: "Description for Image 17" },
-  { src: Image4, description: "Description for Image 4" },
-  { src: Image12, description: "Description for Image 12" },
-  { src: Image9, description: "Description for Image 9" },
-  { src: Image1, description: "Description for Image 1" },
-  { src: Image2, description: "Description for Image 2" },
-  { src: Image3, description: "Description for Image 3" },
+  { src: Image10, description: "Magic Bottle Illustration" },
+  { src: Image8, description: "Magic Bottle Illustration" },
+  { src: Image11, description: "Markhor Illustration" },
+  { src: Image14, description: "Face Illustration" },
+  { src: Image15, description: "Dog Illustration" },
+  { src: Image6, description: "Zodiac Sign Illustration" },
+  { src: Image13, description: "Cartoon Illustration" },
+  { src: Image5, description: "Skull Illustration" },
+  { src: Image17, description: "Poster Design" },
+  { src: Image4, description: "Girls Illustration" },
+  { src: Image12, description: "Character Illustration" },
+  { src: Image9, description: "Winter Illustration" },
+  { src: Image1, description: "Hallowen Illustration" },
+  { src: Image2, description: "Character Illustration" },
+  { src: Image3, description: "Character Illustration" },
 ];
 
 const Digital = () => {
@@ -57,7 +57,7 @@ const Digital = () => {
                   alt={`Digital Art ${index + 1}`}
                 />
                 <div className="card-body">
-                  <p className="card-text">{image.description}</p>
+                  <b className="card-title">{image.description}</b>
                 </div>
               </div>
             </div>

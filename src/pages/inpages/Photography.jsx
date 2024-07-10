@@ -19,26 +19,27 @@ import Image17 from "../../assets/photography/1 (17).jpg";
 import Image18 from "../../assets/photography/1 (18).jpg";
 import Image19 from "../../assets/photography/1 (19).jpg";
 import Image20 from "../../assets/photography/1 (20).jpg";
-import '../../styles/Digital.css'
-const images = [
-  Image15,
-  Image11,
-  Image12,
-  Image13,
-  Image1,
-  Image2,
-  Image3,
-  Image4,
-  Image7,
-  Image10,
-  Image6,
-  Image9,
-  Image18,
-  Image17,
-  Image19,
-  Image8,
-  Image5,
-  Image20,
+import "../../styles/Digital.css";
+
+const photographs = [
+  { src: Image15, description: "Product Brand (The Boss)" },
+  { src: Image11, },
+  { src: Image12, },
+  { src: Image13, },
+  { src: Image1, description: "Live Flowers Shoot" },
+  { src: Image2, },
+  { src: Image3 },
+  { src: Image4, },
+  { src: Image7, description: "Tree Shoot " },
+  { src: Image10, description: "Flower Shoot" },
+  { src: Image6,description : "Tree Shoot"},
+  { src: Image9, description : "Tree Shoot" },
+  { src: Image18, description: "Creative Shoot" },
+  { src: Image17, description: "" },
+  { src: Image19, description: "" },
+  { src: Image8, description: "Live Flower" },
+  { src: Image5, description: "Still Live Photography" },
+  { src: Image20, description: "Still Live Photography" },
 ];
 
 const Photograph = () => {
@@ -54,22 +55,25 @@ const Photograph = () => {
               color: "#34A1CD",
             }}
           >
-            Photo Graphy
+            Photography
           </h2>
         </div>
 
         <div className="row d-flex justify-content-evenly">
-          {images.map((image, index) => (
+          {photographs.map((photograph, index) => (
             <div
               key={index}
               className="col-lg-3 col-md-4 col-sm-6 col-12 d-flex justify-content-center mt-4"
             >
               <div className="card" style={{ width: "18rem" }}>
                 <img
-                  src={image}
+                  src={photograph.src}
                   className="card-img-top img border border-1 border-black"
-                  alt={`Digital Art ${index + 1}`}
+                  alt={`Photography ${index + 1}`}
                 />
+                <div className="card-body">
+                  <b className="card-text">{photograph.description}</b  >
+                </div>
               </div>
             </div>
           ))}

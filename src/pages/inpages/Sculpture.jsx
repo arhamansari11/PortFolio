@@ -3,7 +3,7 @@ import Navbar from "../../components/Navbar";
 import Image1 from "../../assets/sculpture/01.jpg";
 import Image2 from "../../assets/sculpture/02.png";
 import Image3 from "../../assets/sculpture/03.jpg";
-import Image4 from "../../assets/sculpture//04.png";
+import Image4 from "../../assets/sculpture/04.png";
 import Image5 from "../../assets/sculpture/05.jpg";
 import Image6 from "../../assets/sculpture/06.png";
 import Image7 from "../../assets/sculpture/07.jpg";
@@ -13,7 +13,7 @@ import Image10 from "../../assets/sculpture/10.png";
 import Image11 from "../../assets/sculpture/11.jpg";
 import Image12 from "../../assets/sculpture/12.png";
 import Image13 from "../../assets/sculpture/13.jpg";
-// import Image14 from "../../assets/sculpture/1";
+import Image14 from "../../assets/sculpture/14.png";
 import Image15 from "../../assets/sculpture/15.jpg";
 import Image16 from "../../assets/sculpture/16.png";
 import Image17 from "../../assets/sculpture/17.jpg";
@@ -30,41 +30,38 @@ import Image27 from "../../assets/sculpture/27.jpg";
 import '../../styles/Digital.css'
 
 const images = [
-  Image20,
-  Image26,
-  Image25,
-  Image24,
+  { src: Image20,  description: 'Body gestures sculpture' },
+  { src: Image26,  },
+  { src: Image25,  },
+  { src: Image24,  },
 
+  { src: Image21, size: '28 inches', description: 'Metal machine sculpture' },
+  { src: Image16 },
+  { src: Image23 },
+  { src: Image17, size: '22 inches', description: 'Ant life size wood sticks' },
 
-  Image21,
-  Image16,
-  Image23,
-  Image17,
+  { src: Image3, size: '8 inches', description: 'Plaster human face sculpture' },
+  { src: Image8, size: '40 inches', description: 'Ant life size wood sticks' },
+  { src: Image4, size: '40 inches', description: 'Wall Soft fabric sculpture' },
+  { src: Image12, size: '28 inches', description: 'Life size bottle sculpture' },
 
+  { src: Image19, size: '26 inches', description: 'Carboard wall sculpture ' },
+  { src: Image5, size: '20 inches', description: 'Ostrich egg metal sculpture' },
+  { src: Image7, size: '10 inches', description: 'Plaster of Paris tree sculpture' },
+  { src: Image15, size: '10 inches', description: 'Molding,casting sculpture' },
 
-  Image3,
-  Image8,
-  Image4,
-  Image12,
+  { src: Image11, size: '5 inches', description: 'Marble sculpture' },
+  { src: Image2, size: '8 inches', description: 'Metal wire tree round sculpture' },
+  { src: Image1, size: '4 inches', description: 'Frog plaster sculpture' },
+  { src: Image6, size: '8 inches', description: 'Wood craving tress sculpture' },
 
-  Image19,
-  Image5,
-  Image7,
-  Image15,
+  { src: Image10, size: '12 inches', description: 'Stone ball sculpture' },
+  { src: Image13, size: '10 inches', description: 'Molding,casting body part 2' },
+  { src: Image22, size: '29 inches', description: 'Telephone cardboard life size' },
+  { src: Image27, size: '3 feet', description: 'Life size cubes sculpture' },
 
-  Image11,
-  Image2,
-  Image1,
-  Image6,
-  
-  
-  Image10,
-  Image13,
-  Image22,
-  Image27,
-
-  Image9,
-
+  { src: Image14, size: '18 inches', description: 'Plaster human gesture' },
+  { src: Image9, size: '11 inches', description: 'Paper shadow sculpture' },
 ];
 
 const Sculpture = () => {
@@ -92,10 +89,14 @@ const Sculpture = () => {
             >
               <div className="card" style={{ width: "18rem" }}>
                 <img
-                  src={image}
+                  src={image.src}
                   className="card-img-top img border border-1 border-black"
-                  alt={`Digital Art ${index + 1}`}
+                  alt={`Sculpture ${index + 1}`}
                 />
+                <div className="card-body">
+                  <b className="card-text text-center">{image.description}</b>
+                  <p className="card-text text-center">{image.size}</p>
+                </div>
               </div>
             </div>
           ))}

@@ -19,24 +19,20 @@ import Image16 from "../../assets/printmaking/123 (16).png";
 import '../../styles/Digital.css'
 
 const images = [
-
-  Image10,
-  Image4,
-  Image13,
-  Image14,
-
-  Image7,
-  Image6,
-  Image15,  
-  Image9,
-  
-  Image1,
-  Image11,
-  Image12,
-  Image8,
-  
-  Image2,
-  Image16,
+  { src: Image4, description: "Lino cut print" },
+  { src: Image10, description: "Marbelling Print" },
+  { src: Image13, description: "Zinc plate Print (lineitch)" },
+  { src: Image14, description: "Stamp Print" },
+  { src: Image7, description: "Marbelling Print" },
+  { src: Image6, description: "Stamp Print" },
+  { src: Image15, description: "Hand Print" },
+  { src: Image9, description: "Texture Print On Marbelling" },
+  { src: Image1, description: "Color Reducation print" },
+  { src: Image11, description: "Zinc print on plaster" },
+  { src: Image12, description: "Lino cut color reduction print" },
+  { src: Image8, description: "Texture Print On Marbelling" },
+  { src: Image2, description: "Zinc Plate Print (lineitch)" },
+  { src: Image16, description: "Zinc Plate Print (lineitch)" },
 ];
 
 const Printmaking = () => {
@@ -64,10 +60,13 @@ const Printmaking = () => {
             >
               <div className="card" style={{ width: "18rem" }}>
                 <img
-                  src={image}
+                  src={image.src}
                   className="card-img-top img border border-1 border-black"
                   alt={`Printmaking ${index + 1}`}
                 />
+                <div className="card-body">
+                  <b className="card-text">{image.description}</b>
+                </div>
               </div>
             </div>
           ))}

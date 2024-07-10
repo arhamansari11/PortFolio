@@ -15,19 +15,21 @@ import Image12 from "../assets/thesis/01 (12).jpg";
 import "../styles/Digital.css"
 
 const images = [
-  { src: Image2, description: "Description for Image 2" },
-  { src: Image10, description: "Description for Image 10" },
-  { src: Image7, description: "Description for Image 7" },
-  { src: Image3, description: "Description for Image 3" },
-  { src: Image6, description: "Description for Image 6" },
-  { src: Image4, description: "Description for Image 4" },
-  { src: Image8, description: "Description for Image 8" },
-  { src: Image1, description: "Description for Image 1" },
-  { src: Image5, description: "Description for Image 5" },
-  { src: Image9, description: "Description for Image 9" },
-  { src: Image12, description: "Description for Image 12" },
-  { src: Image11, description: "Description for Image 11" },
+  { src: Image2, description: "Untitled - II ", title: "Gouache on Wasli" , size: "11” ×14”"},
+  { src: Image10, description: "Carving Our Own Path ", title: "Gouache on Wasli" , size : "20” × 30”"},
+  { src: Image7, description: "Nothing is Futile", title: "Gouache on Wasli", size : " 14” × 22”" },
+  { src: Image3, description: "Untitled - III", title: "Gouache on Wasli" , size : "11” ×14”"},
+  { src: Image6, description: "Untitled - V", title: "Gouache on Wasli" , size : " 14” ×22”"},
+  { src: Image4, description: "Untitled - VI", title: "Gouache on Wasli" , size : "14” ×22”"},
+  { src: Image8, description: "Untitled X", title: "Gouache on Wasli" , size : "11”×14”" },
+  { src: Image1, description: "Untitled IX", title: "Gouache on Wasli" , size  : "18”×21”"},
+  { src: Image5, description: "Untitled - VI", title: "Gouache on Wasli" , size : "14” ×22”"},
+  { src: Image9, description: "Untitled - VIII", title: "Gouache on Wasli" , size : "20” ×30”"},
+  { src: Image12, description: "Untitled - VII", title: "Gouache on Wasli"  , size : "14” ×22"},
+  { src: Image11, description: "Untitled XI", title: "Gouache on Wasli" , size : "11”×14”" },
 ];
+
+
 
 const Thesis = () => {
   return (
@@ -59,7 +61,9 @@ const Thesis = () => {
                   alt={`Digital Art ${index + 1}`}
                 />
                 <div className="card-body">
-                  <p className="card-text">{image.description}</p>
+                  <h5 className="card-title text-center">{image.description}</h5>
+                  <h5 className="card-title text-center">{image.size}</h5>
+                  <p className="card-text text-center">{image.title}</p>
                 </div>
               </div>
             </div>

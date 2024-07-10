@@ -4,7 +4,7 @@ import { Cursor, useTypewriter } from "react-simple-typewriter";
 import "../styles/Home.css";
 import { Link } from "react-router-dom";
 import { FaLinkedin, FaBehance, FaFacebook, FaInstagram } from "react-icons/fa";
-import Hero from "../assets/images/Bg.png";
+import Hero from "../assets/images/Bg.jpg";
 import Aqib from "../assets/images/aqib.jpg";
 
 const HomePage = () => {
@@ -21,7 +21,7 @@ const HomePage = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-6 col-md-5 col-sm-10 col-12 order-lg-last order-md-last img-class d-flex justify-content-center align-items-center animated-element image-animation">
-            <img src={Hero} alt="" />
+            <img src={Aqib} alt="" />
           </div>
           <div className="col-lg-6 col-md-7 col-sm-10 col-12 animated-element text-animation">
             <div className="height-class">
@@ -52,7 +52,7 @@ const HomePage = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-6 col-md-5 col-sm-10 col-12 img-class d-flex justify-content-center align-items-center animated-element image-animation">
-            <img src={Aqib} alt="" />
+            <img src={Hero} alt="" />
           </div>
           <div className="col-lg-6 col-md-7 col-sm-10 col-12 animated-element text-animation">
             <div className="height-class">

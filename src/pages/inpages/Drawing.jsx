@@ -31,33 +31,33 @@ import Image29 from "../../assets/drawing/IMG_4838.JPG.jpg";
 import Image30 from "../../assets/drawing/IMG_4839.JPG.jpg";
 
 const images = [
-  { src: Image11, description: "Description for Image 11" },
-  { src: Image5, description: "Description for Image 5" },
-  { src: Image10, description: "Description for Image 10" },
-  { src: Image9, description: "Description for Image 9" },
-  { src: Image6, description: "Description for Image 6" },
-  { src: Image8, description: "Description for Image 8" },
-  { src: Image29, description: "Description for Image 29" },
-  { src: Image7, description: "Description for Image 7" },
-  { src: Image4, description: "Description for Image 4" },
-  { src: Image15, description: "Description for Image 15" },
-  { src: Image3, description: "Description for Image 3" },
-  { src: Image2, description: "Description for Image 2" },
-  { src: Image21, description: "Description for Image 21" },
-  { src: Image22, description: "Description for Image 22" },
-  { src: Image23, description: "Description for Image 23" },
-  { src: Image18, description: "Description for Image 18" },
-  { src: Image24, description: "Description for Image 24" },
-  { src: Image19, description: "Description for Image 19" },
-  { src: Image16, description: "Description for Image 16" },
-  { src: Image17, description: "Description for Image 17" },
-  { src: Image28, description: "Description for Image 28" },
-  { src: Image13, description: "Description for Image 13" },
-  { src: Image27, description: "Description for Image 27" },
-  { src: Image20, description: "Description for Image 20" },
-  { src: Image26, description: "Description for Image 26" },
-  { src: Image30, description: "Description for Image 30" },
-  { src: Image1, description: "Description for Image 1" },
+  { src: Image11, description: "Side Pose Live Potrait" },
+  { src: Image5, description: "Front Live Potrait" },
+  { src: Image10, description: "Pencil Potrait" },
+  { src: Image9, description: "Copy Work" },
+  { src: Image6, description: "Left Side Live Potrait" },
+  { src: Image8, description: "3 / 4 Potrait" },
+  { src: Image29, description: "Pencil Potrait" },
+  { src: Image7, description: "Profile Potrait Right Side" },
+  { src: Image4, description: "Hand Practice" },
+  { src: Image15, description: "Tree Pencil Sketch" },
+  { src: Image3, description: "Ear Study" },
+  { src: Image2, description: "Eye Study" },
+  { src: Image21, description: "Live View Drawing(BallPoint)" },
+  { src: Image22, description: "Still Live Drawing (Water Color) " },
+  { src: Image23, description: "Live View Drawing(BallPoint) " },
+  { src: Image18, description: "Still Live Drawing(Pastel Colors)" },
+  { src: Image24, description: "Still Live Drawing(Water Colors)" },
+  { src: Image19, description: "Still Live Drawing (Pencil)" },
+  { src: Image16, description: "Still Live Drawing (ContePencil)" },
+  { src: Image17, description: "Still Live Drawing (Pastel)" },
+  { src: Image28, description: "Still Live Drawing (Pastel)" },
+  { src: Image13, description: "Copy Work (Pencil Drawing)" },
+  { src: Image27, description: "Still Live Drawing (Water Color)" },
+  { src: Image20, description: "Still Live Drawing (BallPoint)" },
+  { src: Image26, description: "Still Live Drawing (Texture)" },
+  { src: Image30, description: "Copy Work (CharCoal)" },
+  { src: Image1, description: "Skll Study" },
 ];
 
 const Drawing = () => {
@@ -90,7 +90,7 @@ const Drawing = () => {
                   alt={`Drawing Art ${index + 1}`}
                 />
                 <div className="card-body">
-                  <p className="card-text">{image.description}</p>
+                  <b className="card-text">{image.description}</b>
                 </div>
               </div>
             </div>

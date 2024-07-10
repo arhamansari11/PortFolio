@@ -17,24 +17,24 @@ import Image15 from "../../assets/miniature/IMG_17.jpg";
 import Image16 from "../../assets/miniature/IMG_29.jpg";
 import Image17 from "../../assets/miniature/7.jpg";
 import Image18 from "../../assets/miniature/1716364176936 - Copy.jpg";
-import '../../styles/Digital.css'
+import "../../styles/Digital.css";
 
 const images = [
-  { src: Image8, description: "Description for Image 8" },
-  { src: Image6, description: "Description for Image 6" },
-  { src: Image12, description: "Description for Image 12" },
-  { src: Image18, description: "Description for Image 18" },
-  { src: Image7, description: "Description for Image 7" },
-  { src: Image16, description: "Description for Image 16" },
-  { src: Image11, description: "Description for Image 11" },
-  { src: Image9, description: "Description for Image 9" },
-  { src: Image3, description: "Description for Image 3" },
-  { src: Image5, description: "Description for Image 5" },
-  { src: Image4, description: "Description for Image 4" },
-  { src: Image2, description: "Description for Image 2" },
-  { src: Image17, description: "Description for Image 17" },
-  { src: Image15, description: "Description for Image 15" },
-  { src: Image1, description: "Description for Image 1" },
+  { src: Image8, description: "Mughal portrait ", title: "gouche on wasli", size: "11x14”, 2020" },
+  { src: Image6, description: "Neem Rang", title: "gouche on wasli", size: "11x14”, 2020" },
+  { src: Image12, description: "Court Scence Replica", title: "wasli with jadwal", size: "11x14”, 2020" },
+  { src: Image18, description: "Calligraphy", title: "Gouche on wasli", size: "11x14”, 2020" },
+  { src: Image7, description: "Flora", title: "Calligraphy on wasli", size: "11x14”, 2021" },
+  { src: Image16, description: " Calligraphy", title: " Gouche On Wasli", size: "11x14”, 2020" },
+  { src: Image11, description: "Indian Portrait", title: " Gouche On Wasli", size: "11x14”, 2020" },
+  { src: Image9, description: "Indian Painting", title: "Gouche On Wasli", size: "11x14” 2019" },
+  { src: Image3, description: " Siyah", title: "Qalam on wasli", size: "11x14”, 2020" },
+  { src: Image5, description: " Siyah", title: "Qalam on wasli", size: "11x14”, 2020" },
+  { src: Image4, description: " Siyah", title: "Qalam on wasli", size: "11x14”, 2020" },
+  { src: Image2, description: " Siyah", title: "Qalam on wasli", size: "11x14”, 2020" },
+  { src: Image17, description: "Siyah", title: "Qalam on wasli", size: "11x14”, 2020" },
+  { src: Image15, description: "Impulsive Decisions", title: " gauche on wasli", size: "11x14”, 2022" },
+  { src: Image1, description: "Led pencil on ivory sheet", title: "", size: "11x14”, 2019" },
 ];
 
 const Miniature = () => {
@@ -59,7 +59,9 @@ const Miniature = () => {
                   alt={`Miniature Art ${index + 1}`}
                 />
                 <div className="card-body">
-                  <p className="card-text">{image.description}</p>
+                  <h5 className="card-title text-center">{image.description}</h5>
+                  <h5 className="card-title text-center">{image.size}</h5>
+                  <p className="card-text text-center">{image.title}</p>
                 </div>
               </div>
             </div>
