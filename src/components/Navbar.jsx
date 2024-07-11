@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav
       className="navbar navbar-expand-md "
-      style={{ backgroundColor: "#768597" }}
+      style={{ backgroundColor: "black" }}
     >
       <div className="container-fluid">
         <Link

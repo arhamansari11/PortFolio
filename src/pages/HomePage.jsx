@@ -9,8 +9,8 @@ import Aqib from "../assets/images/aqib.jpg";
 
 const HomePage = () => {
   const [text] = useTypewriter({
-    words: ["A Visual Artist", "An Art Instructor", "A Sketcher", "A Painter"],
-    loop: true, // Loop the words array
+    words: ["A Visual Artist", "An Miniaturist", "A Sketcher", "A Painter"],
+    loop: true,
     typeSpeed: 120,
     deleteSpeed: 20,
   });
@@ -58,11 +58,19 @@ const HomePage = () => {
             <div className="height-class">
               <div className="container mt-5">
                 <p className="pt-3 line-class">
-                  I am Aqib Javed. I am skilled in various artistic mediums, including sketching, painting, printmaking, sculpture, and photography.
+                  I am Aqib Javed skilled in various artistic mediums, including
+                  miniature painting , sketching, painting, printmaking,
+                  sculpture, digital art, drawing and photography.
                 </p>
                 <hr />
                 <p className="pt-3 line-class">
-                  I am proficient in creating portraits using diverse techniques and have experience as an Art Instructor, developing and implementing engaging art curricula for middle and high school students.
+                  I am proficient in creating portraits using diverse techniques
+                  and have experience as an Art Instructor, developing and
+                  implementing engaging art curricula for middle and high school
+                  students. Notably, I have participated in public collections,
+                  including the 18th Emerging Talent at VM Art Gallery Karachi,
+                  the 19th ARRIVING at Alhamra Art Council Lahore, ArtCADE Gallery Islamabad, O Art Space
+                  Lahore, and Gallery 6 Islamabad.
                 </p>
               </div>
             </div>
@@ -77,7 +85,7 @@ const HomePage = () => {
                 style={{
                   fontWeight: "bolder",
                   fontFamily: "var(--font-poppins)",
-                  color: "#34A1CD",
+                  color: "black",
                 }}
               >
                 Connect with Me
@@ -89,28 +97,28 @@ const HomePage = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaLinkedin size={30} color="#34A1CD" />
+                    <FaLinkedin size={30} color="black" />
                   </a>
                   <a
                     href="https://www.behance.net/aqibjaved29/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaBehance size={30} color="#34A1CD" />
+                    <FaBehance size={30} color="black" />
                   </a>
                   <a
                     href="https://www.facebook.com/share/hJo4r1aNXHGZ7Q21/?mibextid=qi2Omg"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaFacebook size={30} color="#34A1CD" />
+                    <FaFacebook size={30} color="black" />
                   </a>
                   <a
                     href="https://www.instagram.com/studio_aqib_javed?igsh=MWVvcWltbWlueDJsZw=="
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaInstagram size={30} color="#34A1CD" />
+                    <FaInstagram size={30} color="black" />
                   </a>
                 </div>
               </div>

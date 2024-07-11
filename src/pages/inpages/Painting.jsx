@@ -45,7 +45,7 @@ const Painting = () => {
             style={{
               fontWeight: "bolder",
               fontFamily: "var(--font-poppins)",
-              color: "#34A1CD",
+              color: "Black",
             }}
           >
             Painting
@@ -65,7 +65,7 @@ const Painting = () => {
                   alt={`Digital Art ${index + 1}`}
                 />
                 <div className="card-body">
-                  <b className="card-text text-center">{painting.description}</b>
+                  <p className="card-text text-center">{painting.description}</p>
                   <p className="card-text text-center">{painting.size}</p>
                 </div>
               </div>

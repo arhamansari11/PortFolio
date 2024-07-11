@@ -87,7 +87,7 @@ const Contact = () => {
                 <div className="row mt-4">
                   <div className="col-2">
                     <button
-                      className="btn btn-outline-primary pt-1"
+                      className="btn btn-outline-dark pt-1"
                       type="submit"
                       value="Send"
                     >
@@ -107,7 +107,7 @@ const Contact = () => {
             style={{
               fontWeight: "bolder",
               fontFamily: "var(--font-poppins)",
-              color: "#34A1CD",
+              color: "Black",
             }}
           >
             Connect with Me
@@ -119,28 +119,28 @@ const Contact = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaLinkedin size={30} color="#34A1CD" />
+                <FaLinkedin size={30} color="Black" />
               </a>
               <a
                 href="https://www.behance.net/aqibjaved29/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaBehance size={30} color="#34A1CD" />
+                <FaBehance size={30} color="Black" />
               </a>
               <a
                 href="https://www.facebook.com/share/hJo4r1aNXHGZ7Q21/?mibextid=qi2Omg"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaFacebook size={30} color="#34A1CD" />
+                <FaFacebook size={30} color="Black" />
               </a>
               <a
                 href="https://www.instagram.com/studio_aqib_javed?igsh=MWVvcWltbWlueDJsZw=="
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaInstagram size={30} color="#34A1CD" />
+                <FaInstagram size={30} color="Black" />
               </a>
             </div>
           </div>

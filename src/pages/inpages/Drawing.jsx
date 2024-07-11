@@ -70,7 +70,7 @@ const Drawing = () => {
             style={{
               fontWeight: "bolder",
               fontFamily: "var(--font-poppins)",
-              color: "#34A1CD",
+              color: "Black",
             }}
           >
             Drawing Arts
@@ -90,7 +90,7 @@ const Drawing = () => {
                   alt={`Drawing Art ${index + 1}`}
                 />
                 <div className="card-body">
-                  <b className="card-text">{image.description}</b>
+                  <p className="card-text">{image.description}</p>
                 </div>
               </div>
             </div>

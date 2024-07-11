@@ -74,7 +74,7 @@ const Sculpture = () => {
             style={{
               fontWeight: "bolder",
               fontFamily: "var(--font-poppins)",
-              color: "#34A1CD",
+              color: "Black",
             }}
           >
             Sculpture
@@ -94,7 +94,7 @@ const Sculpture = () => {
                   alt={`Sculpture ${index + 1}`}
                 />
                 <div className="card-body">
-                  <b className="card-text text-center">{image.description}</b>
+                  <p className="card-text text-center">{image.description}</p>
                   <p className="card-text text-center">{image.size}</p>
                 </div>
               </div>

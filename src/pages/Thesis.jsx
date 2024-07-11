@@ -41,7 +41,7 @@ const Thesis = () => {
             style={{
               fontWeight: "bolder",
               fontFamily: "var(--font-poppins)",
-              color: "#34A1CD",
+              color: "Black",
             }}
           >
             Thesis
@@ -61,8 +61,8 @@ const Thesis = () => {
                   alt={`Digital Art ${index + 1}`}
                 />
                 <div className="card-body">
-                  <h5 className="card-title text-center">{image.description}</h5>
-                  <h5 className="card-title text-center">{image.size}</h5>
+                  <p className="card-title text-center">{image.description}</p>
+                  <p className="card-title text-center">{image.size}</p>
                   <p className="card-text text-center">{image.title}</p>
                 </div>
               </div>

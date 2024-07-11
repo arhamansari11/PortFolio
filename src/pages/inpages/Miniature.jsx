@@ -24,7 +24,7 @@ const images = [
   { src: Image6, description: "Neem Rang", title: "gouche on wasli", size: "11x14”, 2020" },
   { src: Image12, description: "Court Scence Replica", title: "wasli with jadwal", size: "11x14”, 2020" },
   { src: Image18, description: "Calligraphy", title: "Gouche on wasli", size: "11x14”, 2020" },
-  { src: Image7, description: "Flora", title: "Calligraphy on wasli", size: "11x14”, 2021" },
+  { src: Image7, description: "Flora", title: "Gouche on wasli", size: "11x14”, 2021" },
   { src: Image16, description: " Calligraphy", title: " Gouche On Wasli", size: "11x14”, 2020" },
   { src: Image11, description: "Indian Portrait", title: " Gouche On Wasli", size: "11x14”, 2020" },
   { src: Image9, description: "Indian Painting", title: "Gouche On Wasli", size: "11x14” 2019" },
@@ -33,6 +33,8 @@ const images = [
   { src: Image4, description: " Siyah", title: "Qalam on wasli", size: "11x14”, 2020" },
   { src: Image2, description: " Siyah", title: "Qalam on wasli", size: "11x14”, 2020" },
   { src: Image17, description: "Siyah", title: "Qalam on wasli", size: "11x14”, 2020" },
+  { src: Image13, description: "Portrait", title: " Gouche On Wasli", size: "11x14”, 2020" },
+  { src: Image14, description: "Self Portrait", title: "Gouche On Wasli", size: "11x14”, 2021" },
   { src: Image15, description: "Impulsive Decisions", title: " gauche on wasli", size: "11x14”, 2022" },
   { src: Image1, description: "Led pencil on ivory sheet", title: "", size: "11x14”, 2019" },
 ];
@@ -43,7 +45,7 @@ const Miniature = () => {
       <Navbar />
       <div className="container mt-4 mb-5">
         <div className="text-center">
-          <h2 style={{ fontWeight: "bolder", fontFamily: "var(--font-poppins)", color: "#34A1CD" }}>Miniature Arts</h2>
+          <h2 style={{ fontWeight: "bolder", fontFamily: "var(--font-poppins)", color: "Black" }}>Miniature Arts</h2>
         </div>
 
         <div className="row d-flex justify-content-evenly">
@@ -59,8 +61,8 @@ const Miniature = () => {
                   alt={`Miniature Art ${index + 1}`}
                 />
                 <div className="card-body">
-                  <h5 className="card-title text-center">{image.description}</h5>
-                  <h5 className="card-title text-center">{image.size}</h5>
+                  <p className="card-title text-center">{image.description}</p>
+                  <p className="card-title text-center">{image.size}</p>
                   <p className="card-text text-center">{image.title}</p>
                 </div>
               </div>

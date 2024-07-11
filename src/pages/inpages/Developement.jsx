@@ -3,7 +3,7 @@ import Navbar from "../../components/Navbar";
 import "../../styles/Digital.css";
 import Image1 from "../../assets/development/1 (1).jpg";
 import Image2 from "../../assets/development/1 (2).jpg";
-// import Image3 from "../../assets/development/";
+import Image3 from "../../assets/development/1 (3).JPG";
 import Image4 from "../../assets/development/1 (4).jpg";
 import Image5 from "../../assets/development/1 (5).jpg";
 import Image6 from "../../assets/development/1 (6).jpg";
@@ -33,39 +33,40 @@ import Image29 from "../../assets/development/IMG_4501.JPG";
 // import Image28 from "../../""
 
 const images = [
-  { src: Image22, size: '2x3', description: 'Development 22 description' },
-  { src: Image23, size: '3x4', description: 'Development 23 description' },
+  { src: Image22, size: '15 / 30 ', description: 'Wing Developement' },
+  { src: Image23, size: '15 / 30', description: 'Destraction' },
   { src: Image7, size: '15 / 30', description: 'Complication Of Mind,mix media' },
-  { src: Image18, size: '5x6', description: 'Development 18 description' },
+  { src: Image18, size: '15 / 30', description: 'Head of Fly' },
 
-  { src: Image4, size: '6x7', description: 'Development 4 description' },
-  { src: Image28, size: '7x8', description: 'Development 28 description' },
+  { src: Image4, size: '15 / 30', description: 'Collage Work' },
+  { src: Image28, size: '15 / 30', description: 'Marbelling on Paper' },
   { src: Image5, size: '15 / 30', description: 'Carving Our Own Path, spray and water color' },
-  { src: Image16, size: '9x10', description: 'Development 16 description' },
+  { src: Image16, size: '15 / 30', description: 'Thought Process' },
 
-  { src: Image14, size: '10x11', description: 'Development 14 description' },
-  { src: Image17, size: '11x12', description: 'Development 17 description' },
-  { src: Image19, size: '12x13', description: 'Development 19 description' },
-  { src: Image20, size: '13x14', description: 'Development 20 description' },
+  { src: Image14, size: '15 / 30', description: 'Fly Illusion ' },
+  { src: Image17, size: '15 / 30', description: 'Action Technique on Paper' },
+  { src: Image19, size: '15 / 30', description: 'Pipes with Element' },
+  { src: Image20, size: '15 / 30', description: 'Collage Work on Fly' },
 
   { src: Image29, size: '15 / 30', description: 'Imagination, water pastle color' },
-  { src: Image21, size: '15x16', description: 'Development 21 description' },
+  { src: Image21, size: '15 / 30', description: 'UnTitle' },
   { src: Image6, size: '15 / 30', description: 'Wings of world,water and pencil colors' },
-  { src: Image24, size: '17x18', description: 'Development 24 description' },
+  { src: Image24, size: '15 / 30', description: 'In Large Wing' },
 
-  { src: Image12, size: '18x19', description: 'Development 12 description' },
-  { src: Image2, size: '19x20', description: 'Development 2 description' },
-  { src: Image10, size: '20x21', description: 'Development 10 description' },
-  { src: Image11, size: '21x22', description: 'Development 11 description' },
+  { src: Image12, size: '15 / 30', description: 'Rope on paper' },
+  { src: Image2, size: '15 / 30', description: 'Connectivity' },
+  { src: Image10, size: '15 / 30', description: 'In Large Chain' },
+  { src: Image11, size: '15 / 30', description: 'Screw Drive' },
 
-  { src: Image1, size: '22x23', description: 'Development 1 description' },
-  { src: Image25, size: '23x24', description: 'Development 25 description' },
-  { src: Image8, size: '24x25', description: 'Development 8 description' },
-  { src: Image9, size: '25x26', description: 'Development 9 description' },
+  { src: Image1, size: '15 / 30', description: 'In Large Rope' },
+  { src: Image25, size: '15 / 30', description: 'Actual Size Wing' },
+  { src: Image8, size: '15 / 30', description: 'In Large Screw' },
+  { src: Image9, size: '15 / 30', description: 'In Large' },
 
-  { src: Image26, size: '26x27', description: 'Development 26 description' },
-  { src: Image13, size: '27x28', description: 'Development 13 description' },
-  { src: Image27, size: '15 / 30', description: 'connectivity with society,coffee and water color on canvas' },
+  { src: Image26, size: '15 / 30', description: 'Connectivity with society,coffee and water color on canvas' },
+  { src: Image13, size: '15 / 30', description: 'Illusion, pencil and water' },
+  { src: Image3, size: '15 / 30', description: 'Eye Study Water Colors' },
+  { src: Image27, size: '20 / 40', description: 'Elements project,Mix media' },
 ];
 
 const Development = () => {
@@ -78,7 +79,7 @@ const Development = () => {
             style={{
               fontWeight: "bolder",
               fontFamily: "var(--font-poppins)",
-              color: "#34A1CD",
+              color: "Black",
             }}
           >
             Development
@@ -98,7 +99,7 @@ const Development = () => {
                   alt={`Development ${index + 1}`}
                 />
                 <div className="card-body">
-                  <b className="card-text text-center">{image.description}</b>
+                  <p className="card-text text-center">{image.description}</p>
                   <p className="card-text text-center">{image.size}</p>
                 </div>
               </div>

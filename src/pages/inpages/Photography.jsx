@@ -52,7 +52,7 @@ const Photograph = () => {
             style={{
               fontWeight: "bolder",
               fontFamily: "var(--font-poppins)",
-              color: "#34A1CD",
+              color: "Black",
             }}
           >
             Photography
@@ -72,7 +72,7 @@ const Photograph = () => {
                   alt={`Photography ${index + 1}`}
                 />
                 <div className="card-body">
-                  <b className="card-text">{photograph.description}</b  >
+                  <p className="card-text">{photograph.description}</p  >
                 </div>
               </div>
             </div>

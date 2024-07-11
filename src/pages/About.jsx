@@ -14,7 +14,7 @@ const About = () => {
             style={{
               fontWeight: "bolder",
               fontFamily: "var(--font-poppins)",
-              color: "#34A1CD",
+              color: "Black",
             }}
           >
             About Me
@@ -44,10 +44,6 @@ const About = () => {
             contributed to the success of our annual party. My art has been
             featured in exhibitions at VM Art Gallery Karachi, O Art Space
             Lahore, Gallery 6 Islamabad, and Lahore Arts Council Alhamra.
-            Notably, I have participated in public collections, including the
-            18th Emerging Talent at VM Art Gallery Karachi, the 19th ARRIVING at
-            Alhamra Art Council Lahore, O Art Space Lahore, and Gallery 6
-            Islamabad.
           </p>
           <hr />
         </div>
@@ -56,7 +52,7 @@ const About = () => {
             style={{
               fontWeight: "bolder",
               fontFamily: "var(--font-poppins)",
-              color: "#34A1CD",
+              color: "Black",
             }}
           >
             Education
@@ -82,7 +78,7 @@ const About = () => {
           style={{
             fontWeight: "bolder",
             fontFamily: "var(--font-poppins)",
-            color: "#34A1CD",
+            color: "Black",
           }}
         >
           Connect with Me
@@ -94,28 +90,28 @@ const About = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaLinkedin size={30} color="#34A1CD" />
+              <FaLinkedin size={30} color="Black" />
             </a>
             <a
               href="https://www.behance.net/aqibjaved29/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaBehance size={30} color="#34A1CD" />
+              <FaBehance size={30} color="Black" />
             </a>
             <a
               href="https://www.facebook.com/share/hJo4r1aNXHGZ7Q21/?mibextid=qi2Omg"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaFacebook size={30} color="#34A1CD" />
+              <FaFacebook size={30} color="Black" />
             </a>
             <a
               href="https://www.instagram.com/studio_aqib_javed?igsh=MWVvcWltbWlueDJsZw=="
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaInstagram size={30} color="#34A1CD" />
+              <FaInstagram size={30} color="Black" />
             </a>
           </div>
         </div>

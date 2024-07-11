@@ -41,7 +41,7 @@ const Digital = () => {
       <Navbar />
       <div className="container mt-4 mb-5">
         <div className="text-center">
-          <h2 style={{ fontWeight: "bolder", fontFamily: "var(--font-poppins)", color: "#34A1CD" }}>Digital Arts</h2>
+          <h2 style={{ fontWeight: "bolder", fontFamily: "var(--font-poppins)", color: "Black" }}>Digital Arts</h2>
         </div>
 
         <div className="row d-flex justify-content-evenly">
@@ -57,7 +57,7 @@ const Digital = () => {
                   alt={`Digital Art ${index + 1}`}
                 />
                 <div className="card-body">
-                  <b className="card-title">{image.description}</b>
+                  <p className="card-title">{image.description}</p>
                 </div>
               </div>
             </div>
