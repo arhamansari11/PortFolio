@@ -20,22 +20,22 @@ import Image18 from "../../assets/miniature/1716364176936 - Copy.jpg";
 import "../../styles/Digital.css";
 
 const images = [
-  { src: Image8, description: "Mughal portrait ", title: "gouche on wasli", size: "11x14”, 2020" },
-  { src: Image6, description: "Neem Rang", title: "gouche on wasli", size: "11x14”, 2020" },
-  { src: Image12, description: "Court Scence Replica", title: "wasli with jadwal", size: "11x14”, 2020" },
-  { src: Image18, description: "Calligraphy", title: "Gouche on wasli", size: "11x14”, 2020" },
+  { src: Image8, description: "Mughal portrait ", title: "Gouche on wasli", size: "11x14”, 2020" },
+  { src: Image6, description: "Neem Rang", title: "Gouche on wasli", size: "11x14”, 2020" },
+  { src: Image12, description: "Court Scence Replica", title: "Gouche on wasli", size: "11x14”, 2020" },
+  { src: Image18, description: "Neem Rang with Jadwal", title: "Gouche on wasli", size: "11x14”, 2020" },
   { src: Image7, description: "Flora", title: "Gouche on wasli", size: "11x14”, 2021" },
-  { src: Image16, description: " Calligraphy", title: " Gouche On Wasli", size: "11x14”, 2020" },
-  { src: Image11, description: "Indian Portrait", title: " Gouche On Wasli", size: "11x14”, 2020" },
-  { src: Image9, description: "Indian Painting", title: "Gouche On Wasli", size: "11x14” 2019" },
+  { src: Image16, description: " Calligraphy", title: " Gouche on wasli", size: "11x14”, 2020" },
+  { src: Image11, description: "Indian Painting", title: " Gouche on wasli", size: "11x14”, 2020" },
+  { src: Image9, description: "Indian Portrait", title: "Gouche on wasli", size: "11x14” 2019" },
   { src: Image3, description: " Siyah", title: "Qalam on wasli", size: "11x14”, 2020" },
   { src: Image5, description: " Siyah", title: "Qalam on wasli", size: "11x14”, 2020" },
   { src: Image4, description: " Siyah", title: "Qalam on wasli", size: "11x14”, 2020" },
   { src: Image2, description: " Siyah", title: "Qalam on wasli", size: "11x14”, 2020" },
   { src: Image17, description: "Siyah", title: "Qalam on wasli", size: "11x14”, 2020" },
-  { src: Image13, description: "Portrait", title: " Gouche On Wasli", size: "11x14”, 2020" },
-  { src: Image14, description: "Self Portrait", title: "Gouche On Wasli", size: "11x14”, 2021" },
-  { src: Image15, description: "Impulsive Decisions", title: " gauche on wasli", size: "11x14”, 2022" },
+  { src: Image13, description: "Portrait", title: " Gouche on wasli", size: "11x14”, 2020" },
+  { src: Image14, description: "Self Portrait", title: "Gouche on wasli", size: "11x14”, 2021" },
+  { src: Image15, description: "Impulsive Decisions", title: "Gouche on wasli", size: "11x14”, 2022" },
   { src: Image1, description: "Led pencil on ivory sheet", title: "", size: "11x14”, 2019" },
 ];
 

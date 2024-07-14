@@ -27,7 +27,7 @@ const images = [
   { src: Image13, description: "Cartoon Illustration" },
   { src: Image5, description: "Skull Illustration" },
   { src: Image17, description: "Poster Design" },
-  { src: Image4, description: "Girls Illustration" },
+  { src: Image4, description: "Girl Illustration" },
   { src: Image12, description: "Character Illustration" },
   { src: Image9, description: "Winter Illustration" },
   { src: Image1, description: "Hallowen Illustration" },

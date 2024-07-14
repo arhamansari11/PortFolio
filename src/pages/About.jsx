@@ -20,16 +20,12 @@ const About = () => {
             About Me
           </h2>
           <p className="line-class">
-            I am Aqib Javed. I am skilled in various artistic mediums, including
-            sketching, painting, printmaking, sculpture, and photography. I am
-            proficient in creating portraits using diverse techniques and have
-            experience as an Art Instructor, developing and implementing
-            engaging art curricula for middle and high school students.
+          I am Aqib Javed skilled in various artistic mediums, including miniature painting , sketching, painting, printmaking, sculpture, digital art, drawing and photography.
           </p>
           <hr />
           <p className="line-class">
             A detail-oriented Fine Arts graduate with expertise in miniature
-            painting and recognition for distinction in the Final Year Project.
+            painting and recognition for <b>Distinction</b> in the Final Year Project.
             As a previous Interior Design Intern, I contributed to space
             planning, furniture selection, and practical project management
             skills.
@@ -60,7 +56,7 @@ const About = () => {
           <ul style={{ fontFamily: "var(--font-poppins)" }}>
             <li>
               <span style={{ fontWeight: "bolder" }}>Sep 2018 - Nov 2022</span>
-              <h2 style={{ fontFamily: "var(--font-poppins)" }}>
+              <h2 style={{ fontFamily: "var(--font-poppins)", color : "Black" }}>
                 Bachelor of Fine Arts - BFA (Miniature Painting)
               </h2>
               <p

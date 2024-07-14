@@ -38,7 +38,7 @@ const Projects = () => {
             <div key={accordion.id} className="col-lg-3 col-md-6 col-sm-6 col-12">
               <div className="accordion mt-lg-3 mt-5" id={`accordionExample${accordion.id}`}>
                 <div className="accordion-item">
-                  <h2 className="accordion-header">
+                  <h2 className="accordion-header bg-dark">
                     <button
                       className="accordion-button"
                       type="button"
@@ -57,7 +57,7 @@ const Projects = () => {
                   >
                     <div className="accordion-body d-flex justify-content-center">
                       <Link to={accordion.link}>
-                        <button className="btn btn-outline-primary">
+                        <button className="btn btn-outline-dark">
                           {accordion.title}
                         </button>
                       </Link>

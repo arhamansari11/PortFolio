@@ -34,7 +34,7 @@ import Image29 from "../../assets/development/IMG_4501.JPG";
 
 const images = [
   { src: Image22, size: '15 / 30 ', description: 'Wing Developement' },
-  { src: Image23, size: '15 / 30', description: 'Destraction' },
+  { src: Image23, size: '15 / 30', description: 'Distortion' },
   { src: Image7, size: '15 / 30', description: 'Complication Of Mind,mix media' },
   { src: Image18, size: '15 / 30', description: 'Head of Fly' },
 
